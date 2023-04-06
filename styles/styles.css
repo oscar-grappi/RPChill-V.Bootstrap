@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header__logo-h1{
+    background-image: url(../img/header-background.jpg);
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 0;
+}
+
+.logo{
+    width: 10em;
+    margin-right: 1em;
+}
