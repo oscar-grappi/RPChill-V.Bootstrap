@@ -89,8 +89,14 @@ footer ul a{
     bottom: 2em;
 }
 
-.pages-newslist li h3{
-    font-size: 1rem;
-    word-wrap: break-word;
+.pages-newslist ol{
+    border-left: black 0.5px solid;
 }
 
+.pages-newslist h3{
+    font-size: 1.3rem;
+}
+
+.card-img{
+    height: 100%;
+}
