@@ -34,7 +34,7 @@
 
   <!-- NAV -->
 
-  <div class="container-fluid" style="margin: 0; padding: 0;">
+  <div class="container-fluid m-0 p-0">
     <nav class="navbar bg-dark navbar-expand-md bg-body-tertiary" data-bs-theme="dark">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,194 +64,201 @@
   </header>
 
   <!-- MAIN -->
+  <div class="destacados__bg-color bg-danger">
+    <main class="index-main">
+      <section class="destacados-index">
+        <h2>Noticias destacadas</h2>
 
-  <main class="index-main">
-    <section class="destacados-index">
-      <h2>Noticias destacadas</h2>
+        <!-- CAROUSEL SOLO EN SM -->
 
-      <!-- CAROUSEL SOLO EN SM -->
-
-      <div class="container-fluid">
-        <div id="carouselExample" class="carousel slide col-10 d-md-none">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./img/death-stranding.jpg" class="d-block w-100" alt="sam">
+        <div class="container-fluid">
+          <div id="carouselExample" class="carousel slide col-10 d-md-none">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/death-stranding.jpg" class="d-block w-100" alt="sam">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/bullettrain.jpg" class="d-block w-100" alt="bullettrain">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/rush.jpg" class="d-block w-100" alt="rush">
+              </div>
             </div>
-            <div class="carousel-item">
-              <img src="./img/bullettrain.jpg" class="d-block w-100" alt="bullettrain">
-            </div>
-            <div class="carousel-item">
-              <img src="./img/rush.jpg" class="d-block w-100" alt="rush">
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
-      </div>
 
-      <!-- CARDS PARA LAS DEMAS DEFINICIONES -->
+        <!-- CARDS PARA LAS DEMAS DEFINICIONES -->
 
-      <div class="cards container-fluid justify-content-evenly gap-3 d-none d-md-flex">
+        <div class="cards container-fluid justify-content-evenly gap-3 d-none d-md-flex">
 
-        <article class="index-card">
-          <div class="card">
-            <img src="./img/death-stranding.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h2 class="card-text">test</h2>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel architecto recusandae
-                minima minus eaque ratione similique, non repellat eveniet expedita ad maxime dolorum, tempore illum
-                inventore ab deserunt. Aspernatur, similique.</p>
-            </div>
-        </article>
-        <article class="index-card index-card-desktop">
-          <div class="card">
-            <img src="./img/death-stranding.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h2 class="card-text">test</h2>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel architecto recusandae
-                minima minus eaque ratione similique, non repellat eveniet expedita ad maxime dolorum, tempore illum
-                inventore ab deserunt. Aspernatur, similique.</p>
-            </div>
-        </article>
-
-        <article class="index-card index-card-desktop">
-          <div class="card">
-            <img src="./img/death-stranding.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h2 class="card-text">test</h2>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel architecto recusandae
-                minima minus eaque ratione similique, non repellat eveniet expedita ad maxime dolorum, tempore illum
-                inventore ab deserunt. Aspernatur, similique.</p>
-            </div>
-        </article>
-      </div>
-    </section>
-
-    <!------ NUEVA SECCION ------>
-    <hr>
-    <!------ NUEVA SECCION ------>
-
-    <!-- NOTICIAS -->
-
-    <div class="container-fluid">
-      <div class="row">
-        <h2>lo ultimo</h2>
-        <div class="body__ultimas-aside d-md-flex justify-content-between">
-          <section class="ultimas col-12 col-xl-8">
-            <article class="article-latest d-flex flex-column flex-md-row align-items-center align-items-md-stretch">
-              <img src="./img/death-stranding.jpg" alt="sam" class="article-img w-75 object-fit-cover">
-              <div class="article-text d-flex flex-column align-items-center align-items-md-start text-center text-md-start">
-                <h3>titulo noticia</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, voluptates eveniet!
-                  Assumenda
-                  dolores neque quidem! Ipsa facilis enim possimus? Fugit unde minus modi, laborum
-                  nesciunt
-                  quia a
-                  enim pariatur ipsum.</p>
+          <article class="index-card">
+            <div class="card">
+              <img src="./img/death-stranding.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h2 class="card-text">test</h2>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel architecto recusandae
+                  minima minus eaque ratione similique, non repellat eveniet expedita ad maxime dolorum, tempore illum
+                  inventore ab deserunt. Aspernatur, similique.</p>
               </div>
-            </article>
-
-            <article class="article-latest d-flex flex-column flex-md-row align-items-center align-items-md-stretch">
-              <img src="./img/death-stranding.jpg" alt="sam" class="article-img w-75 object-fit-cover">
-              <div class="article-text d-flex flex-column align-items-center align-items-md-start text-center text-md-start">
-                <h3>titulo noticia</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, voluptates eveniet!
-                  Assumenda
-                  dolores neque quidem! Ipsa facilis enim possimus? Fugit unde minus modi, laborum
-                  nesciunt
-                  quia a
-                  enim pariatur ipsum.</p>
+          </article>
+          <article class="index-card index-card-desktop">
+            <div class="card">
+              <img src="./img/death-stranding.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h2 class="card-text">test</h2>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel architecto recusandae
+                  minima minus eaque ratione similique, non repellat eveniet expedita ad maxime dolorum, tempore illum
+                  inventore ab deserunt. Aspernatur, similique.</p>
               </div>
-            </article>
+          </article>
 
-            <article class="article-latest d-flex flex-column flex-md-row align-items-center align-items-md-stretch">
-              <img src="./img/death-stranding.jpg" alt="sam" class="article-img w-75 object-fit-cover">
-              <div class="article-text d-flex flex-column align-items-center align-items-md-start text-center text-md-start">
-                <h3>titulo noticia</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, voluptates eveniet!
-                  Assumenda
-                  dolores neque quidem! Ipsa facilis enim possimus? Fugit unde minus modi, laborum
-                  nesciunt
-                  quia a
-                  enim pariatur ipsum.</p>
+          <article class="index-card index-card-desktop">
+            <div class="card">
+              <img src="./img/death-stranding.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h2 class="card-text">test</h2>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel architecto recusandae
+                  minima minus eaque ratione similique, non repellat eveniet expedita ad maxime dolorum, tempore illum
+                  inventore ab deserunt. Aspernatur, similique.</p>
               </div>
-            </article>
-
-            <article class="article-latest d-flex flex-column flex-md-row align-items-center align-items-md-stretch">
-              <img src="./img/death-stranding.jpg" alt="sam" class="article-img w-75 object-fit-cover">
-              <div class="article-text d-flex flex-column align-items-center align-items-md-start text-center text-md-start">
-                <h3>titulo noticia</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, voluptates eveniet!
-                  Assumenda
-                  dolores neque quidem! Ipsa facilis enim possimus? Fugit unde minus modi, laborum
-                  nesciunt
-                  quia a
-                  enim pariatur ipsum.</p>
-              </div>
-            </article>
-
-            <article class="article-latest d-flex flex-column flex-md-row align-items-center align-items-md-stretch">
-              <img src="./img/death-stranding.jpg" alt="sam" class="article-img w-75 object-fit-cover">
-              <div class="article-text d-flex flex-column align-items-center align-items-md-start text-center text-md-start">
-                <h3>titulo noticia</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, voluptates eveniet!
-                  Assumenda
-                  dolores neque quidem! Ipsa facilis enim possimus? Fugit unde minus modi, laborum
-                  nesciunt
-                  quia a
-                  enim pariatur ipsum.</p>
-              </div>
-            </article>
-
-            <article class="article-latest d-flex flex-column flex-md-row align-items-center align-items-md-stretch">
-              <img src="./img/death-stranding.jpg" alt="sam" class="article-img w-75 object-fit-cover">
-              <div class="article-text d-flex flex-column align-items-center align-items-md-start text-center text-md-start">
-                <h3>titulo noticia</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, voluptates eveniet!
-                  Assumenda
-                  dolores neque quidem! Ipsa facilis enim possimus? Fugit unde minus modi, laborum
-                  nesciunt
-                  quia a
-                  enim pariatur ipsum.</p>
-              </div>
-            </article>
-          </section>
-
-          <!-- ASIDE -->
-
-          <aside class="main__aside col-xl-3 d-none d-xl-flex flex-md-column">
-            <div class="separator__section-aside">
-              <article class="aside__article">
-                <h4>titulo test</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero harum accusamus ipsum. Assumenda
-                  quibusdam
-                  tempora iste, laborum, animi eos fugiat repudiandae, labore velit tempore consequatur qui ipsam
-                  incidunt
-                  quae officia.</p>
-              </article>
-
-              <img src="/img/Publicidad aperol.png" alt="publicidad"
-                class="publicidad__aside w-75 align-self-center my-2 object-fit-cover">
-
-              <article class="aside__article">
-                <h4>titulo test</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero harum accusamus ipsum. Assumenda
-                  quibusdam
-                  tempora iste, laborum, animi eos fugiat repudiandae, labore velit tempore consequatur qui ipsam
-                  incidunt
-                  quae officia.</p>
-              </article>
-            </div>
-          </aside>
+          </article>
         </div>
+      </section>
+  </div>
+
+  <!------ NUEVA SECCION ------>
+  <hr>
+  <!------ NUEVA SECCION ------>
+
+  <!-- NOTICIAS -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <h2>lo ultimo</h2>
+      <div class="body__ultimas-aside d-md-flex justify-content-between">
+        <section class="ultimas col-12 col-xl-8">
+          <article class="article-latest d-flex flex-column flex-md-row align-items-center align-items-md-stretch">
+            <img src="./img/death-stranding.jpg" alt="sam" class="article-img">
+            <div
+              class="article-text d-flex flex-column align-items-center align-items-md-start text-center text-md-start">
+              <h3>titulo noticia</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, voluptates eveniet!
+                Assumenda
+                dolores neque quidem! Ipsa facilis enim possimus? Fugit unde minus modi, laborum
+                nesciunt
+                quia a
+                enim pariatur ipsum.</p>
+            </div>
+          </article>
+
+          <article class="article-latest d-flex flex-column flex-md-row align-items-center align-items-md-stretch">
+            <img src="./img/death-stranding.jpg" alt="sam" class="article-img">
+            <div
+              class="article-text d-flex flex-column align-items-center align-items-md-start text-center text-md-start">
+              <h3>titulo noticia</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, voluptates eveniet!
+                Assumenda
+                dolores neque quidem! Ipsa facilis enim possimus? Fugit unde minus modi, laborum
+                nesciunt
+                quia a
+                enim pariatur ipsum.</p>
+            </div>
+          </article>
+
+          <article class="article-latest d-flex flex-column flex-md-row align-items-center align-items-md-stretch">
+            <img src="./img/death-stranding.jpg" alt="sam" class="article-img">
+            <div
+              class="article-text d-flex flex-column align-items-center align-items-md-start text-center text-md-start">
+              <h3>titulo noticia</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, voluptates eveniet!
+                Assumenda
+                dolores neque quidem! Ipsa facilis enim possimus? Fugit unde minus modi, laborum
+                nesciunt
+                quia a
+                enim pariatur ipsum.</p>
+            </div>
+          </article>
+
+          <article class="article-latest d-flex flex-column flex-md-row align-items-center align-items-md-stretch">
+            <img src="./img/death-stranding.jpg" alt="sam" class="article-img">
+            <div
+              class="article-text d-flex flex-column align-items-center align-items-md-start text-center text-md-start">
+              <h3>titulo noticia</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, voluptates eveniet!
+                Assumenda
+                dolores neque quidem! Ipsa facilis enim possimus? Fugit unde minus modi, laborum
+                nesciunt
+                quia a
+                enim pariatur ipsum.</p>
+            </div>
+          </article>
+
+          <article class="article-latest d-flex flex-column flex-md-row align-items-center align-items-md-stretch">
+            <img src="./img/death-stranding.jpg" alt="sam" class="article-img">
+            <div
+              class="article-text d-flex flex-column align-items-center align-items-md-start text-center text-md-start">
+              <h3>titulo noticia</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, voluptates eveniet!
+                Assumenda
+                dolores neque quidem! Ipsa facilis enim possimus? Fugit unde minus modi, laborum
+                nesciunt
+                quia a
+                enim pariatur ipsum.</p>
+            </div>
+          </article>
+
+          <article class="article-latest d-flex flex-column flex-md-row align-items-center align-items-md-stretch">
+            <img src="./img/death-stranding.jpg" alt="sam" class="article-img">
+            <div
+              class="article-text d-flex flex-column align-items-center align-items-md-start text-center text-md-start">
+              <h3>titulo noticia</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, voluptates eveniet!
+                Assumenda
+                dolores neque quidem! Ipsa facilis enim possimus? Fugit unde minus modi, laborum
+                nesciunt
+                quia a
+                enim pariatur ipsum.</p>
+            </div>
+          </article>
+        </section>
+
+        <!-- ASIDE -->
+
+        <aside class="main__aside col-xl-3 d-none d-xl-flex flex-md-column">
+          <div class="separator__section-aside">
+            <article class="aside__article">
+              <h4>titulo test</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero harum accusamus ipsum. Assumenda
+                quibusdam
+                tempora iste, laborum, animi eos fugiat repudiandae, labore velit tempore consequatur qui ipsam
+                incidunt
+                quae officia.</p>
+            </article>
+
+            <img src="/img/Publicidad aperol.png" alt="publicidad"
+              class="publicidad__aside w-75 align-self-center my-2 object-fit-cover">
+
+            <article class="aside__article">
+              <h4>titulo test</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero harum accusamus ipsum. Assumenda
+                quibusdam
+                tempora iste, laborum, animi eos fugiat repudiandae, labore velit tempore consequatur qui ipsam
+                incidunt
+                quae officia.</p>
+            </article>
+          </div>
+        </aside>
       </div>
     </div>
+  </div>
   </main>
 
   <!-------------- FOOTER --------------->

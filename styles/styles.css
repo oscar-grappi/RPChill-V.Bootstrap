@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header{
+header, .header{
     background-image: url(../img/header-background.jpg);
 }
 
@@ -14,6 +14,11 @@ header{
 
 h1, h2, h3, h4, h5, h6{
     text-transform: capitalize;
+}
+
+hr{
+    padding: 0;
+    margin: 0;
 }
 
 .nav__container{
@@ -36,11 +41,21 @@ h1, h2, h3, h4, h5, h6{
     margin: 1em 0;
     padding-bottom: 0.5em;
     border-bottom: 0.3px rgb(66, 64, 64) solid;
+    overflow: hidden;
+    height: 250px;
+    margin-left: 2em;
 }
 
 .article-img{
     margin-right: 1em;
+    height: 100%;
+    width: 33%;
+    object-fit: cover;
+}
 
+.article-text{
+    max-height: 100%;
+    width: 75%;
 }
 
 .separator__section-aside{
@@ -49,7 +64,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .destacados-index{
-    margin: 1em;
+    padding: 2em;
 }
 
 footer{
@@ -97,6 +112,12 @@ footer ul a{
     font-size: 1.3rem;
 }
 
+/* card-destacados controla tarjeta */
+.card-destacados{
+    height: 24rem;
+}
+
+/* card-img controla la img dentro */
 .card-img{
     height: 100%;
 }
