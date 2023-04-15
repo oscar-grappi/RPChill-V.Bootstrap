@@ -37,12 +37,12 @@
 
         <div class="container-fluid" style="margin: 0; padding: 0;">
             <nav class="navbar bg-dark navbar-expand-md bg-body-tertiary" data-bs-theme="dark">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav mx-2">
                         <li class="nav-item">
                             <a class="nav-link" href="../index.html">Inicio</a>
                         </li>
@@ -67,16 +67,18 @@
     <main class="main-contacto">
         <div class="container-fluid">
             <div class="row">
-                <div class="m-3">
+                <div class="m-3 col">
                     <h2>dejanos un mensaje!</h2>
                     <form action="" class="form">
-                        <div class="col">
-                            <label for="nombre" class="fw-bold mt-2">nombre:</label>
-                            <input type="text" id="nomre" name="nombre">
-                        </div>
-                        <div>
-                            <label for="email" class="fw-bold mt-2">email:</label>
-                            <input type="email" id="email" name="email">
+                        <div class="form__nombre-email">
+                            <div>
+                                <label for="nombre" class="fw-bold mt-2">nombre:</label>
+                                <input type="text" id="nomre" name="nombre">
+                            </div>
+                            <div>
+                                <label for="email" class="fw-bold mt-2">email:</label>
+                                <input type="email" id="email" name="email">
+                            </div>
                         </div>
                         <div class="mt-2">
                             <span class="fw-bold">genero:</span>
