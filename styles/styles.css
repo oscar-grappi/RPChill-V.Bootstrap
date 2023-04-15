@@ -26,36 +26,9 @@ hr{
     margin: 0;
 }
 
-.carousel{
-    margin: 2em;
-    
-}
-
 .carousel-item img {
-    height: 250px;
-    max-height: 250px;
+    height: 400px;
     object-fit:cover;
-}
-
-.article-latest{
-    margin: 1em 0;
-    padding-bottom: 0.5em;
-    border-bottom: 0.3px rgb(66, 64, 64) solid;
-    overflow: hidden;
-    height: 250px;
-    margin-left: 2em;
-}
-
-.article-img{
-    margin-right: 1em;
-    height: 100%;
-    width: 33%;
-    object-fit: cover;
-}
-
-.article-text{
-    max-height: 100%;
-    width: 75%;
 }
 
 .separator__section-aside{
@@ -66,6 +39,12 @@ hr{
 .destacados-index{
     padding: 2em;
 }
+
+.card{
+    height: 500px;
+    overflow: hidden;
+}
+
 
 footer{
     padding: 1em;
@@ -98,10 +77,10 @@ footer ul a{
 }
 
 .img-up{
-    width: 5em;
+    width: 3em;
     position: fixed;
-    right: 2em;
-    bottom: 2em;
+    right: 1em;
+    bottom: 1em;
 }
 
 .pages-newslist ol{
@@ -112,6 +91,8 @@ footer ul a{
     font-size: 1.3rem;
 }
 
+/* ---------------- PAGES -------------------- */
+
 /* card-destacados controla tarjeta */
 .card-destacados{
     height: 24rem;
@@ -120,4 +101,54 @@ footer ul a{
 /* card-img controla la img dentro */
 .card-img{
     height: 100%;
+}
+
+/* --------------- MEDIA QUERIES ----------------- */
+
+@media (max-width:991px) {
+
+    .article-latest{
+        margin: 1em 0;
+        padding-bottom: 0.5em;
+        border-bottom: 0.3px rgb(66, 64, 64) solid;
+        overflow: hidden;
+        height: 400px;
+    }
+
+    .article-img{
+        height:100%;
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 1em;
+    }
+
+    .article-text{
+        max-height: 100%;
+        width: 80%;
+    }
+
+}
+
+@media (min-width:992px) {
+
+    .article-latest{
+        margin: 1em 0;
+        padding-bottom: 0.5em;
+        border-bottom: 0.3px rgb(66, 64, 64) solid;
+        overflow: hidden;
+        height: 250px;
+    }
+
+    .article-img{
+        margin-right: 1em;
+        height: 100%;
+        width: 33%;
+        object-fit: cover;
+    }
+
+    .article-text{
+        max-height: 100%;
+        width: 75%;
+    }
+
 }
